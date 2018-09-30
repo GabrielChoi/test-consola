@@ -1,0 +1,128 @@
+h1{
+  font-family: sans-serif;
+}
+
+body{
+  background-attachment: scroll;
+  background-image: url("../images/bodybg.png");
+}
+p{
+  text-align: justify;
+}
+
+
+/*Codigo de la barra*/
+ul .navBar{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:  rgb(24, 20, 55);
+}
+
+li .itemBarra{
+  display: inline;
+  float: left;
+}
+
+li a{
+  color:white;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: black;
+  background-color: white;
+}
+
+.barra{
+  display: block;
+  padding: 8px;
+  background: rgb(24, 20, 55);
+  text-align: center;
+}
+
+
+/*Encabezado*/
+#encabezado{
+  background-color: white;
+
+}
+.logo{
+  float: left;
+}
+#titulo{
+    display:inline-block;
+    clear: left;
+    vertical-align: sub;
+}
+
+
+/*Vista*/
+
+.vista {
+  text-align: center;
+  background-color:rgb(65, 65, 66);
+  background-position: center;
+  overflow: visible;
+}
+.prev{
+  transition: 450ms;
+  opacity: 100%;
+}
+.prev:hover{
+  transform: scale(1.1,1.1);
+}
+:not(.prev:hover){
+  filter: grayscale(100%);
+}
+
+
+/*Plots*/
+.pelis{
+  background-color: rgb(206, 225, 255);
+  clear: left;
+  margin-left: 200px;
+  width: 900px;
+  height: 320px;
+}
+
+.img{
+  margin-top: 10px;
+  margin-left: 5px;
+  float: left;
+  margin-right: auto;
+  display: block;
+}
+.plot{
+  text-align: justify;
+  margin-right: 10px;
+  padding-top: 30px;
+  margin-left: 250px;
+}
+
+
+/*pieDePag*/
+
+div.sticky{
+  position: sticky;
+}
+div.parent{
+  padding-top: 50px;
+  position: relative;
+}
+
+/*Redes*/
+.redes{
+  text-decoration: none;
+}
+ul .pieDePag{
+  width: auto;
+  height: auto;
+  background-color: black;
+}
+
+li .piePag{
+  list-style-type: none;
+  text-decoration: none;
+}
